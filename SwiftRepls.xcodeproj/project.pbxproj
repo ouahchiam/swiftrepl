@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BD7E3F582AD6FB64006BE559 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E3F572AD6FB64006BE559 /* main.swift */; };
+		BD7E3F5F2AD6FEA0006BE559 /* logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E3F5E2AD6FEA0006BE559 /* logic.swift */; };
+		BD7E3F612AD6FEB0006BE559 /* utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E3F602AD6FEB0006BE559 /* utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		BD7E3F542AD6FB64006BE559 /* SwiftRepls */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftRepls; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7E3F572AD6FB64006BE559 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BD7E3F5E2AD6FEA0006BE559 /* logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logic.swift; sourceTree = "<group>"; };
+		BD7E3F602AD6FEB0006BE559 /* utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utility.swift; sourceTree = "<group>"; };
+		BD7E3F632AD6FF5D006BE559 /* instructions.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = instructions.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,20 @@
 		BD7E3F562AD6FB64006BE559 /* SwiftRepls */ = {
 			isa = PBXGroup;
 			children = (
-				BD7E3F572AD6FB64006BE559 /* main.swift */,
+				BD7E3F622AD6FEE0006BE559 /* Challenge 17 */,
 			);
 			path = SwiftRepls;
+			sourceTree = "<group>";
+		};
+		BD7E3F622AD6FEE0006BE559 /* Challenge 17 */ = {
+			isa = PBXGroup;
+			children = (
+				BD7E3F572AD6FB64006BE559 /* main.swift */,
+				BD7E3F5E2AD6FEA0006BE559 /* logic.swift */,
+				BD7E3F602AD6FEB0006BE559 /* utility.swift */,
+				BD7E3F632AD6FF5D006BE559 /* instructions.rtf */,
+			);
+			path = "Challenge 17";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7E3F612AD6FEB0006BE559 /* utility.swift in Sources */,
+				BD7E3F5F2AD6FEA0006BE559 /* logic.swift in Sources */,
 				BD7E3F582AD6FB64006BE559 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
